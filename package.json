@@ -1,6 +1,6 @@
 {
-  "name": "@quramy/eslint-plugin-tutorial",
-  "version": "1.0.0",
+  "name": "eslint-plugin-vue-is-prefix",
+  "version": "0.0.1",
   "description": "A tutorial repository to create your first eslint rule",
   "main": "lib/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "typescript",
     "example"
   ],
-  "author": "Quramy",
+  "author": "Ammadeo",
   "license": "MIT",
   "devDependencies": {
     "@types/eslint": "7.28.0",
