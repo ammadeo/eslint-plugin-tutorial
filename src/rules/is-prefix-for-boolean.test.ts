@@ -15,15 +15,15 @@ tester.run("is-prefix-for-boolean", rule, {
   invalid: [
     {
       code: `const visible = ref(true)`,
-      errors: [{ message: "Prefix boolean variables with 'is' ex. isVisible" }],
+      errors: [{ message: "Prefix boolean variables with 'is' e.g. isVisible" }],
     },
     {
       code: `const visible = ref(false)`,
-      errors: [{ message: "Prefix boolean variables with 'is' ex. isVisible" }],
+      errors: [{ message: "Prefix boolean variables with 'is' e.g. isVisible" }],
     },
     {
       code: `const visible = ref<boolean | undefined>()`,
-      errors: [{ message: "Prefix boolean variables with 'is' ex. isVisible" }],
+      errors: [{ message: "Prefix boolean variables with 'is' e.g. isVisible" }],
     },
   ],
 });
